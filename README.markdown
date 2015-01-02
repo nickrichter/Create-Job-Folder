@@ -7,9 +7,15 @@ An Applescript for setting up a new folder structure for your projects
 
 ### How useful is this?
 
-Honestly, I don't know. Probably not very, as everybody has their own way of doing things. So the structure here is likely not what you need. I made this while working at a design firm and we wanted a way to quickly create a folder structure for new projects, so it's preatty specific. However, it could always be edited to suit your specific needs. Just change the folder names, remove nested folders you don't need, and so on.
+Honestly, I don't know. Probably not very, as everybody has their own way of doing things. So the structure here is likely not what you need. I made this while working at a design firm and we wanted a way to quickly create a folder structure for new projects, so it's pretty specific. However, it could always be edited to suit your specific needs. Just change the folder names, remove nested folders you don't need, and so on.
 
 So maybe it might be useful. Perhaps just a tiny bit. Who knows.
+
+
+
+### You see the major flaw with this, right?
+
+Yes, yes I do. This script is hard-coded which makes it a lot less useful than it could be. I put that in the issues for this project, and I would like to fix that. I will look at how that could be done. Still, there might be some value to be found in that it could provide someone a framework that can be edited to suit their needs.
 
 
 
