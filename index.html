@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Create-job-folder by nickrichter</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Create-job-folder</h1>
+        <p>An Applescript for setting up a new folder structure for your projects</p>
+
+        <p class="view"><a href="https://github.com/nickrichter/Create-Job-Folder">View the Project on GitHub <small>nickrichter/Create-Job-Folder</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/nickrichter/Create-Job-Folder/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/nickrichter/Create-Job-Folder/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/nickrichter/Create-Job-Folder">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="create-job-folder" class="anchor" href="#create-job-folder" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create Job Folder</h1>
+
+<p>An Applescript for setting up a new folder structure for your projects</p>
+
+<h3>
+<a id="how-useful-is-this" class="anchor" href="#how-useful-is-this" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How useful is this?</h3>
+
+<p>Honestly, I don't know. Probably not very, as everybody has their own way of doing things. So the structure here is likely not what you need. I made this while working at a design firm and we wanted a way to quickly create a folder structure for new projects, so it's pretty specific. However, it could always be edited to suit your specific needs. Just change the folder names, remove nested folders you don't need, and so on.</p>
+
+<p>So maybe it might be useful. Perhaps just a tiny bit. Who knows.</p>
+
+<h3>
+<a id="you-see-the-major-flaw-with-this-right" class="anchor" href="#you-see-the-major-flaw-with-this-right" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>You see the major flaw with this, right?</h3>
+
+<p>Yes, yes I do. This script is hard-coded which makes it a lot less useful than it could be. I put that in the issues for this project, and I would like to fix that. I will look at how that could be done. Still, there might be some value to be found in that it could provide someone a framework that can be edited to suit their needs.</p>
+
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h3>
+
+<p>There is no installation per se, but this is just a plain text file of the source code, and not executable. Since AppleScript's .scpt files are compiled, binary, files they are difficult to perform diffs on, and keep track of with version control. There are a couple options to get a compiled version of the script. The first is to simply open AppleScript Editor and paste the source code into a new file. Another is to open Terminal and do the following:</p>
+
+<ol>
+<li>
+<code>cd</code> to the directory where you want the compiled script to live</li>
+<li>type <code>osacompile -o myscript.scpt /path/to/my/SASS-droplet.applescript</code> and hit return</li>
+</ol>
+
+<p>The <code>-o</code> flag is the filename you want for the output. If the output is not specified, the default a.scpt will be used. It's also worthwhile to note, that <em>the output will be placed where the osacompile command is run from</em>. For example, if your present working directory is your user home directory, a.scpt will be put in your home directory even if SASS-droplet.applescript is on your desktop. That is why the <code>cd</code> in step 1 is important.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/nickrichter">nickrichter</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
